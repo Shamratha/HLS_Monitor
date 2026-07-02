@@ -1,5 +1,15 @@
 # HLS Monitor
 
+> **Team project — Amagi Media Labs, Learning Hub 2025.** Built with [@Suraj-B12](https://github.com/Suraj-B12).
+> **My contributions (frontend):**
+> - Architected the React + Tailwind CSS dashboard, using Socket.io to stream real-time video/audio bitrates into live VU meters and scrollable historical charts (Recharts)
+> - Built a custom `AudioSynth` engine on the Web Audio API to trigger localized siren/beep alerts for critical stream failures
+> - Implemented paginated lazy-loading for error logs to keep frame rates smooth under heavy data bursts
+> - Designed the frontend state layer that maps real-time backend worker updates — manifest health scores, staleness metrics, sequence drifts — into the telemetry components
+
+A real-time HLS stream monitoring solution with live analytics, signal visualization, and health tracking.
+# HLS Monitor
+
 A real-time HLS stream monitoring solution with live analytics, signal visualization, and health tracking.
 
 **Live Demo:** https://hls-monitor.onrender.com/
